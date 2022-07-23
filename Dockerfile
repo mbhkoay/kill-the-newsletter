@@ -22,3 +22,4 @@ RUN \
   tar -xzf kill-the-newsletter--linux--v1.0.1.tgz
 
 EXPOSE 2525 25 443
+ENTRYPOINT ["kill-the-newsletter"]
