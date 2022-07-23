@@ -7,7 +7,7 @@ RUN \
   mkdir kill-the-newsletter && \
   cd kill-the-newsletter
 RUN \
-  wget -O https://github.com/leafac/kill-the-newsletter/releases/download/v1.0.1/kill-the-newsletter--linux--v1.0.1.tgz && \
+  wget https://github.com/leafac/kill-the-newsletter/releases/download/v1.0.1/kill-the-newsletter--linux--v1.0.1.tgz && \
   tar -xzf kill-the-newsletter--linux--v1.0.1.tgz
 
 EXPOSE 11000 11000
